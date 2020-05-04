@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449618AD245F0D5700632318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618AC245F0D5700632318 /* AppDelegate.swift */; };
+		449618AF245F0D5700632318 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618AE245F0D5700632318 /* SceneDelegate.swift */; };
+		449618B1245F0D5700632318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618B0245F0D5700632318 /* ViewController.swift */; };
+		449618B4245F0D5700632318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449618B2245F0D5700632318 /* Main.storyboard */; };
+		449618B6245F0D6000632318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449618B5245F0D6000632318 /* Assets.xcassets */; };
+		449618B9245F0D6000632318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449618B7245F0D6000632318 /* LaunchScreen.storyboard */; };
+		449618C4245F0D6000632318 /* TekwillHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618C3245F0D6000632318 /* TekwillHTTPClientTests.swift */; };
+		449618CF245F0D6000632318 /* TekwillHTTPClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618CE245F0D6000632318 /* TekwillHTTPClientUITests.swift */; };
+		449618DD245F0D7F00632318 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618DC245F0D7F00632318 /* APIManager.swift */; };
+		449618DF245F0FED00632318 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618DE245F0FED00632318 /* Errors.swift */; };
+		449618E1245F163500632318 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618E0245F163500632318 /* Extensions.swift */; };
+		449618E3245F1BA600632318 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449618E2245F1BA600632318 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		449618C0245F0D6000632318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 449618A1245F0D5700632318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449618A8245F0D5700632318;
+			remoteInfo = TekwillHTTPClient;
+		};
+		449618CB245F0D6000632318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 449618A1245F0D5700632318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449618A8245F0D5700632318;
+			remoteInfo = TekwillHTTPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		449618A9245F0D5700632318 /* TekwillHTTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekwillHTTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449618AC245F0D5700632318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449618AE245F0D5700632318 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		449618B0245F0D5700632318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		449618B3245F0D5700632318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449618B5245F0D6000632318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449618B8245F0D6000632318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449618BA245F0D6000632318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449618BF245F0D6000632318 /* TekwillHTTPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekwillHTTPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		449618C3245F0D6000632318 /* TekwillHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekwillHTTPClientTests.swift; sourceTree = "<group>"; };
+		449618C5245F0D6000632318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449618CA245F0D6000632318 /* TekwillHTTPClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekwillHTTPClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		449618CE245F0D6000632318 /* TekwillHTTPClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekwillHTTPClientUITests.swift; sourceTree = "<group>"; };
+		449618D0245F0D6000632318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449618DC245F0D7F00632318 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		449618DE245F0FED00632318 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		449618E0245F163500632318 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		449618E2245F1BA600632318 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449618A6245F0D5700632318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618BC245F0D6000632318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618C7245F0D6000632318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449618A0245F0D5700632318 = {
+			isa = PBXGroup;
+			children = (
+				449618AB245F0D5700632318 /* TekwillHTTPClient */,
+				449618C2245F0D6000632318 /* TekwillHTTPClientTests */,
+				449618CD245F0D6000632318 /* TekwillHTTPClientUITests */,
+				449618AA245F0D5700632318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449618AA245F0D5700632318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449618A9245F0D5700632318 /* TekwillHTTPClient.app */,
+				449618BF245F0D6000632318 /* TekwillHTTPClientTests.xctest */,
+				449618CA245F0D6000632318 /* TekwillHTTPClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449618AB245F0D5700632318 /* TekwillHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				449618AC245F0D5700632318 /* AppDelegate.swift */,
+				449618AE245F0D5700632318 /* SceneDelegate.swift */,
+				449618B0245F0D5700632318 /* ViewController.swift */,
+				449618E2245F1BA600632318 /* ProfileViewController.swift */,
+				449618DC245F0D7F00632318 /* APIManager.swift */,
+				449618E0245F163500632318 /* Extensions.swift */,
+				449618DE245F0FED00632318 /* Errors.swift */,
+				449618B2245F0D5700632318 /* Main.storyboard */,
+				449618B5245F0D6000632318 /* Assets.xcassets */,
+				449618B7245F0D6000632318 /* LaunchScreen.storyboard */,
+				449618BA245F0D6000632318 /* Info.plist */,
+			);
+			path = TekwillHTTPClient;
+			sourceTree = "<group>";
+		};
+		449618C2245F0D6000632318 /* TekwillHTTPClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				449618C3245F0D6000632318 /* TekwillHTTPClientTests.swift */,
+				449618C5245F0D6000632318 /* Info.plist */,
+			);
+			path = TekwillHTTPClientTests;
+			sourceTree = "<group>";
+		};
+		449618CD245F0D6000632318 /* TekwillHTTPClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				449618CE245F0D6000632318 /* TekwillHTTPClientUITests.swift */,
+				449618D0245F0D6000632318 /* Info.plist */,
+			);
+			path = TekwillHTTPClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449618A8245F0D5700632318 /* TekwillHTTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449618D3245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClient" */;
+			buildPhases = (
+				449618A5245F0D5700632318 /* Sources */,
+				449618A6245F0D5700632318 /* Frameworks */,
+				449618A7245F0D5700632318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekwillHTTPClient;
+			productName = TekwillHTTPClient;
+			productReference = 449618A9245F0D5700632318 /* TekwillHTTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		449618BE245F0D6000632318 /* TekwillHTTPClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449618D6245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClientTests" */;
+			buildPhases = (
+				449618BB245F0D6000632318 /* Sources */,
+				449618BC245F0D6000632318 /* Frameworks */,
+				449618BD245F0D6000632318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449618C1245F0D6000632318 /* PBXTargetDependency */,
+			);
+			name = TekwillHTTPClientTests;
+			productName = TekwillHTTPClientTests;
+			productReference = 449618BF245F0D6000632318 /* TekwillHTTPClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		449618C9245F0D6000632318 /* TekwillHTTPClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449618D9245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClientUITests" */;
+			buildPhases = (
+				449618C6245F0D6000632318 /* Sources */,
+				449618C7245F0D6000632318 /* Frameworks */,
+				449618C8245F0D6000632318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449618CC245F0D6000632318 /* PBXTargetDependency */,
+			);
+			name = TekwillHTTPClientUITests;
+			productName = TekwillHTTPClientUITests;
+			productReference = 449618CA245F0D6000632318 /* TekwillHTTPClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449618A1245F0D5700632318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alex Koblik-Zelter";
+				TargetAttributes = {
+					449618A8245F0D5700632318 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					449618BE245F0D6000632318 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 449618A8245F0D5700632318;
+					};
+					449618C9245F0D6000632318 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 449618A8245F0D5700632318;
+					};
+				};
+			};
+			buildConfigurationList = 449618A4245F0D5700632318 /* Build configuration list for PBXProject "TekwillHTTPClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449618A0245F0D5700632318;
+			productRefGroup = 449618AA245F0D5700632318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449618A8245F0D5700632318 /* TekwillHTTPClient */,
+				449618BE245F0D6000632318 /* TekwillHTTPClientTests */,
+				449618C9245F0D6000632318 /* TekwillHTTPClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449618A7245F0D5700632318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449618B9245F0D6000632318 /* LaunchScreen.storyboard in Resources */,
+				449618B6245F0D6000632318 /* Assets.xcassets in Resources */,
+				449618B4245F0D5700632318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618BD245F0D6000632318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618C8245F0D6000632318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449618A5245F0D5700632318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449618DD245F0D7F00632318 /* APIManager.swift in Sources */,
+				449618E1245F163500632318 /* Extensions.swift in Sources */,
+				449618DF245F0FED00632318 /* Errors.swift in Sources */,
+				449618B1245F0D5700632318 /* ViewController.swift in Sources */,
+				449618E3245F1BA600632318 /* ProfileViewController.swift in Sources */,
+				449618AD245F0D5700632318 /* AppDelegate.swift in Sources */,
+				449618AF245F0D5700632318 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618BB245F0D6000632318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449618C4245F0D6000632318 /* TekwillHTTPClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449618C6245F0D6000632318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449618CF245F0D6000632318 /* TekwillHTTPClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		449618C1245F0D6000632318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449618A8245F0D5700632318 /* TekwillHTTPClient */;
+			targetProxy = 449618C0245F0D6000632318 /* PBXContainerItemProxy */;
+		};
+		449618CC245F0D6000632318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449618A8245F0D5700632318 /* TekwillHTTPClient */;
+			targetProxy = 449618CB245F0D6000632318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		449618B2245F0D5700632318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449618B3245F0D5700632318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449618B7245F0D6000632318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449618B8245F0D6000632318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449618D1245F0D6000632318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449618D2245F0D6000632318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449618D4245F0D6000632318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449618D5245F0D6000632318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		449618D7245F0D6000632318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekwillHTTPClient.app/TekwillHTTPClient";
+			};
+			name = Debug;
+		};
+		449618D8245F0D6000632318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekwillHTTPClient.app/TekwillHTTPClient";
+			};
+			name = Release;
+		};
+		449618DA245F0D6000632318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TekwillHTTPClient;
+			};
+			name = Debug;
+		};
+		449618DB245F0D6000632318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = TekwillHTTPClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.TekwillHTTPClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TekwillHTTPClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449618A4245F0D5700632318 /* Build configuration list for PBXProject "TekwillHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449618D1245F0D6000632318 /* Debug */,
+				449618D2245F0D6000632318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449618D3245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449618D4245F0D6000632318 /* Debug */,
+				449618D5245F0D6000632318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449618D6245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449618D7245F0D6000632318 /* Debug */,
+				449618D8245F0D6000632318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449618D9245F0D6000632318 /* Build configuration list for PBXNativeTarget "TekwillHTTPClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449618DA245F0D6000632318 /* Debug */,
+				449618DB245F0D6000632318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449618A1245F0D5700632318 /* Project object */;
+}
