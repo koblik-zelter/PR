@@ -1,0 +1,6 @@
+framework module Pods_TCPClient {
+  umbrella header "Pods-TCPClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

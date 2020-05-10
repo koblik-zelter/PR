@@ -1,0 +1,6 @@
+framework module Pods_TCPClient_TCPClientUITests {
+  umbrella header "Pods-TCPClient-TCPClientUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

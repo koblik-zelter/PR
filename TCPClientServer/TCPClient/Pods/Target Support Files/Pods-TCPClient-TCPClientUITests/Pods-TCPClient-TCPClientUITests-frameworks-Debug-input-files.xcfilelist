@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TCPClient-TCPClientUITests/Pods-TCPClient-TCPClientUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework
+${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework
