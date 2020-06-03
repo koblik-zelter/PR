@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2AF6AE1BB50392F4744084 /* Pods_UDPServer_UDPServerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D481F607F85C5B77C59AF37 /* Pods_UDPServer_UDPServerUITests.framework */; };
+		440D6E0E24870156004E6E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D6E0D24870156004E6E58 /* AppDelegate.swift */; };
+		440D6E1024870156004E6E58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D6E0F24870156004E6E58 /* ViewController.swift */; };
+		440D6E1324870156004E6E58 /* UDPServer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 440D6E1124870156004E6E58 /* UDPServer.xcdatamodeld */; };
+		440D6E152487015E004E6E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440D6E142487015E004E6E58 /* Assets.xcassets */; };
+		440D6E182487015E004E6E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440D6E162487015E004E6E58 /* Main.storyboard */; };
+		440D6E242487015E004E6E58 /* UDPServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D6E232487015E004E6E58 /* UDPServerTests.swift */; };
+		440D6E2F2487015E004E6E58 /* UDPServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440D6E2E2487015E004E6E58 /* UDPServerUITests.swift */; };
+		49FA67303D9E28ABDB079F77 /* Pods_UDPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9B3C1D2869BEEF6C1C341 /* Pods_UDPServer.framework */; };
+		FF3878272493FF144D82E808 /* Pods_UDPServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB53CB0802E11B18D2189458 /* Pods_UDPServerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440D6E202487015E004E6E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440D6E0224870156004E6E58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440D6E0924870156004E6E58;
+			remoteInfo = UDPServer;
+		};
+		440D6E2B2487015E004E6E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440D6E0224870156004E6E58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440D6E0924870156004E6E58;
+			remoteInfo = UDPServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057A26540D46BADFAF5758B6 /* Pods-UDPServer-UDPServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServer-UDPServerUITests.release.xcconfig"; path = "Target Support Files/Pods-UDPServer-UDPServerUITests/Pods-UDPServer-UDPServerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		440D6E0A24870156004E6E58 /* UDPServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDPServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		440D6E0D24870156004E6E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		440D6E0F24870156004E6E58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		440D6E1224870156004E6E58 /* UDPServer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDPServer.xcdatamodel; sourceTree = "<group>"; };
+		440D6E142487015E004E6E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440D6E172487015E004E6E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		440D6E192487015E004E6E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440D6E1A2487015E004E6E58 /* UDPServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UDPServer.entitlements; sourceTree = "<group>"; };
+		440D6E1F2487015E004E6E58 /* UDPServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDPServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440D6E232487015E004E6E58 /* UDPServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPServerTests.swift; sourceTree = "<group>"; };
+		440D6E252487015E004E6E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440D6E2A2487015E004E6E58 /* UDPServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDPServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440D6E2E2487015E004E6E58 /* UDPServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPServerUITests.swift; sourceTree = "<group>"; };
+		440D6E302487015E004E6E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D481F607F85C5B77C59AF37 /* Pods_UDPServer_UDPServerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDPServer_UDPServerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C48BFEAC4C896BD0C22392D /* Pods-UDPServer-UDPServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServer-UDPServerUITests.debug.xcconfig"; path = "Target Support Files/Pods-UDPServer-UDPServerUITests/Pods-UDPServer-UDPServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8959BF095763496166C67049 /* Pods-UDPServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServerTests.release.xcconfig"; path = "Target Support Files/Pods-UDPServerTests/Pods-UDPServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAA1CF0FC1587631CB8B7CE3 /* Pods-UDPServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServer.release.xcconfig"; path = "Target Support Files/Pods-UDPServer/Pods-UDPServer.release.xcconfig"; sourceTree = "<group>"; };
+		BFEA98981E149B37FD17AA11 /* Pods-UDPServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServer.debug.xcconfig"; path = "Target Support Files/Pods-UDPServer/Pods-UDPServer.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F9B3C1D2869BEEF6C1C341 /* Pods_UDPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FCDD49D31683AF8B761E25 /* Pods-UDPServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDPServerTests.debug.xcconfig"; path = "Target Support Files/Pods-UDPServerTests/Pods-UDPServerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB53CB0802E11B18D2189458 /* Pods_UDPServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDPServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440D6E0724870156004E6E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FA67303D9E28ABDB079F77 /* Pods_UDPServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E1C2487015E004E6E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3878272493FF144D82E808 /* Pods_UDPServerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E272487015E004E6E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2AF6AE1BB50392F4744084 /* Pods_UDPServer_UDPServerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09ECAF1ADC59D31088ADEF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9B3C1D2869BEEF6C1C341 /* Pods_UDPServer.framework */,
+				6D481F607F85C5B77C59AF37 /* Pods_UDPServer_UDPServerUITests.framework */,
+				FB53CB0802E11B18D2189458 /* Pods_UDPServerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440D6E0124870156004E6E58 = {
+			isa = PBXGroup;
+			children = (
+				440D6E0C24870156004E6E58 /* UDPServer */,
+				440D6E222487015E004E6E58 /* UDPServerTests */,
+				440D6E2D2487015E004E6E58 /* UDPServerUITests */,
+				440D6E0B24870156004E6E58 /* Products */,
+				C2F862E8982899557A2A8DDB /* Pods */,
+				09ECAF1ADC59D31088ADEF40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		440D6E0B24870156004E6E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440D6E0A24870156004E6E58 /* UDPServer.app */,
+				440D6E1F2487015E004E6E58 /* UDPServerTests.xctest */,
+				440D6E2A2487015E004E6E58 /* UDPServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440D6E0C24870156004E6E58 /* UDPServer */ = {
+			isa = PBXGroup;
+			children = (
+				440D6E0D24870156004E6E58 /* AppDelegate.swift */,
+				440D6E0F24870156004E6E58 /* ViewController.swift */,
+				440D6E142487015E004E6E58 /* Assets.xcassets */,
+				440D6E162487015E004E6E58 /* Main.storyboard */,
+				440D6E192487015E004E6E58 /* Info.plist */,
+				440D6E1A2487015E004E6E58 /* UDPServer.entitlements */,
+				440D6E1124870156004E6E58 /* UDPServer.xcdatamodeld */,
+			);
+			path = UDPServer;
+			sourceTree = "<group>";
+		};
+		440D6E222487015E004E6E58 /* UDPServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				440D6E232487015E004E6E58 /* UDPServerTests.swift */,
+				440D6E252487015E004E6E58 /* Info.plist */,
+			);
+			path = UDPServerTests;
+			sourceTree = "<group>";
+		};
+		440D6E2D2487015E004E6E58 /* UDPServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				440D6E2E2487015E004E6E58 /* UDPServerUITests.swift */,
+				440D6E302487015E004E6E58 /* Info.plist */,
+			);
+			path = UDPServerUITests;
+			sourceTree = "<group>";
+		};
+		C2F862E8982899557A2A8DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA98981E149B37FD17AA11 /* Pods-UDPServer.debug.xcconfig */,
+				BAA1CF0FC1587631CB8B7CE3 /* Pods-UDPServer.release.xcconfig */,
+				7C48BFEAC4C896BD0C22392D /* Pods-UDPServer-UDPServerUITests.debug.xcconfig */,
+				057A26540D46BADFAF5758B6 /* Pods-UDPServer-UDPServerUITests.release.xcconfig */,
+				E8FCDD49D31683AF8B761E25 /* Pods-UDPServerTests.debug.xcconfig */,
+				8959BF095763496166C67049 /* Pods-UDPServerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440D6E0924870156004E6E58 /* UDPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440D6E332487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServer" */;
+			buildPhases = (
+				F9561F132C4B7EF034E69157 /* [CP] Check Pods Manifest.lock */,
+				440D6E0624870156004E6E58 /* Sources */,
+				440D6E0724870156004E6E58 /* Frameworks */,
+				440D6E0824870156004E6E58 /* Resources */,
+				33F7C2BA3DBB4E6D5932FD38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDPServer;
+			productName = UDPServer;
+			productReference = 440D6E0A24870156004E6E58 /* UDPServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		440D6E1E2487015E004E6E58 /* UDPServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440D6E362487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServerTests" */;
+			buildPhases = (
+				A6560B4CCE852F99A043BB0C /* [CP] Check Pods Manifest.lock */,
+				440D6E1B2487015E004E6E58 /* Sources */,
+				440D6E1C2487015E004E6E58 /* Frameworks */,
+				440D6E1D2487015E004E6E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440D6E212487015E004E6E58 /* PBXTargetDependency */,
+			);
+			name = UDPServerTests;
+			productName = UDPServerTests;
+			productReference = 440D6E1F2487015E004E6E58 /* UDPServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		440D6E292487015E004E6E58 /* UDPServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440D6E392487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServerUITests" */;
+			buildPhases = (
+				7FABE1783F50DDDC564F931F /* [CP] Check Pods Manifest.lock */,
+				440D6E262487015E004E6E58 /* Sources */,
+				440D6E272487015E004E6E58 /* Frameworks */,
+				440D6E282487015E004E6E58 /* Resources */,
+				0EB2FE26D72ECE58D3EE6A71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440D6E2C2487015E004E6E58 /* PBXTargetDependency */,
+			);
+			name = UDPServerUITests;
+			productName = UDPServerUITests;
+			productReference = 440D6E2A2487015E004E6E58 /* UDPServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440D6E0224870156004E6E58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Alex Koblik-Zelter";
+				TargetAttributes = {
+					440D6E0924870156004E6E58 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					440D6E1E2487015E004E6E58 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 440D6E0924870156004E6E58;
+					};
+					440D6E292487015E004E6E58 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 440D6E0924870156004E6E58;
+					};
+				};
+			};
+			buildConfigurationList = 440D6E0524870156004E6E58 /* Build configuration list for PBXProject "UDPServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440D6E0124870156004E6E58;
+			productRefGroup = 440D6E0B24870156004E6E58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440D6E0924870156004E6E58 /* UDPServer */,
+				440D6E1E2487015E004E6E58 /* UDPServerTests */,
+				440D6E292487015E004E6E58 /* UDPServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440D6E0824870156004E6E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D6E152487015E004E6E58 /* Assets.xcassets in Resources */,
+				440D6E182487015E004E6E58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E1D2487015E004E6E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E282487015E004E6E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB2FE26D72ECE58D3EE6A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDPServer-UDPServerUITests/Pods-UDPServer-UDPServerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDPServer-UDPServerUITests/Pods-UDPServer-UDPServerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UDPServer-UDPServerUITests/Pods-UDPServer-UDPServerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F7C2BA3DBB4E6D5932FD38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDPServer/Pods-UDPServer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDPServer/Pods-UDPServer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UDPServer/Pods-UDPServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FABE1783F50DDDC564F931F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDPServer-UDPServerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6560B4CCE852F99A043BB0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDPServerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9561F132C4B7EF034E69157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDPServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440D6E0624870156004E6E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D6E1024870156004E6E58 /* ViewController.swift in Sources */,
+				440D6E0E24870156004E6E58 /* AppDelegate.swift in Sources */,
+				440D6E1324870156004E6E58 /* UDPServer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E1B2487015E004E6E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D6E242487015E004E6E58 /* UDPServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440D6E262487015E004E6E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440D6E2F2487015E004E6E58 /* UDPServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440D6E212487015E004E6E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440D6E0924870156004E6E58 /* UDPServer */;
+			targetProxy = 440D6E202487015E004E6E58 /* PBXContainerItemProxy */;
+		};
+		440D6E2C2487015E004E6E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440D6E0924870156004E6E58 /* UDPServer */;
+			targetProxy = 440D6E2B2487015E004E6E58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		440D6E162487015E004E6E58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440D6E172487015E004E6E58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440D6E312487015E004E6E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		440D6E322487015E004E6E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		440D6E342487015E004E6E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEA98981E149B37FD17AA11 /* Pods-UDPServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UDPServer/UDPServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UDPServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		440D6E352487015E004E6E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA1CF0FC1587631CB8B7CE3 /* Pods-UDPServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UDPServer/UDPServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UDPServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		440D6E372487015E004E6E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FCDD49D31683AF8B761E25 /* Pods-UDPServerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = UDPServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDPServer.app/Contents/MacOS/UDPServer";
+			};
+			name = Debug;
+		};
+		440D6E382487015E004E6E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8959BF095763496166C67049 /* Pods-UDPServerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = UDPServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDPServer.app/Contents/MacOS/UDPServer";
+			};
+			name = Release;
+		};
+		440D6E3A2487015E004E6E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C48BFEAC4C896BD0C22392D /* Pods-UDPServer-UDPServerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = UDPServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UDPServer;
+			};
+			name = Debug;
+		};
+		440D6E3B2487015E004E6E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057A26540D46BADFAF5758B6 /* Pods-UDPServer-UDPServerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6H3R3SVSKL;
+				INFOPLIST_FILE = UDPServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ackz.UDPServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UDPServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440D6E0524870156004E6E58 /* Build configuration list for PBXProject "UDPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D6E312487015E004E6E58 /* Debug */,
+				440D6E322487015E004E6E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440D6E332487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D6E342487015E004E6E58 /* Debug */,
+				440D6E352487015E004E6E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440D6E362487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D6E372487015E004E6E58 /* Debug */,
+				440D6E382487015E004E6E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440D6E392487015E004E6E58 /* Build configuration list for PBXNativeTarget "UDPServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D6E3A2487015E004E6E58 /* Debug */,
+				440D6E3B2487015E004E6E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		440D6E1124870156004E6E58 /* UDPServer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				440D6E1224870156004E6E58 /* UDPServer.xcdatamodel */,
+			);
+			currentVersion = 440D6E1224870156004E6E58 /* UDPServer.xcdatamodel */;
+			path = UDPServer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 440D6E0224870156004E6E58 /* Project object */;
+}

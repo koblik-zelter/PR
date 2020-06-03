@@ -1,0 +1,6 @@
+framework module Pods_UDPServer_UDPServerUITests {
+  umbrella header "Pods-UDPServer-UDPServerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
